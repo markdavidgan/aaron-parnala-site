@@ -55,3 +55,9 @@ Mark explicitly designated the site live. Removed global prototype banner, foote
 Production deployment: https://aaron-parnala-site-owbqkjmyk-markdavidgan-code.vercel.app
 
 Verified at https://aaronparnala.markdavidgan.com on 2026-10-01: all ten page routes return HTTP 200, contain no prototype wording or form fields, link to project Instagram, and retain noindex metadata and headers. Robots disallowance and concept AI disclosures pass. Safari desktop homepage and direct-contact landing reviewed. Lint, TypeScript and production build pass.
+
+### Spatial motion release — 2026-10-01
+
+Production deployment: https://aaron-parnala-site-8g24argss-markdavidgan-code.vercel.app
+
+Opening choreography, image reveals, limited scroll depth and interaction states shipped. See [motion design and verification](motion-design.md). No runtime dependency added. Contact and image-disclosure rules retained.

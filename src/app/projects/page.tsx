@@ -39,7 +39,7 @@ export default function ProjectsPage() {
         Aaron-sourced portfolio imagery. AI-generated concept studies are
         labeled separately.
       </p>
-      <div className="collection-grid" aria-live="polite">
+      <div key={category} className="collection-grid" aria-live="polite">
         {projects.map((p) => (
           <ProjectCard key={p.id} project={p} />
         ))}

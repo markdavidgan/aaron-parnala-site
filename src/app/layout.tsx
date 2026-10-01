@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Newsreader } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
+import { SpatialMotion } from "@/components/SpatialMotion";
 import { Footer } from "@/components/Footer";
 
 const geistSans = Geist({
@@ -62,6 +63,7 @@ export default function RootLayout({
           Skip to content
         </a>
         <Navigation />
+        <SpatialMotion />
         <main id="main-content" className="flex-1">
           {children}
         </main>
