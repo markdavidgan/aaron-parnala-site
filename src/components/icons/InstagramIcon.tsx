@@ -1,9 +1,13 @@
-import React from "react";
-
-export function InstagramIcon({ className = "h-4 w-4" }: { className?: string }) {
+export function InstagramIcon({
+  className = "instagram-icon",
+}: {
+  className?: string;
+}) {
   return (
     <svg
       className={className}
+      aria-hidden="true"
+      focusable="false"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

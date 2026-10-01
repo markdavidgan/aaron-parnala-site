@@ -1,3 +1,4 @@
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
 export default function Contact() {
   return (
     <section className="contact-page section-shell">
@@ -25,7 +26,10 @@ export default function Contact() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Contact on Instagram <span aria-hidden="true">↗</span>
+          Contact on Instagram{" "}
+          <span aria-hidden="true">
+            <InstagramIcon />
+          </span>
         </a>
         <p className="instagram-handle">@aaron_parnala_projects</p>
       </div>

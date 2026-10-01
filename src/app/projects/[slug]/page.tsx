@@ -1,3 +1,4 @@
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PROJECTS } from "@/data/projects";
@@ -98,7 +99,7 @@ export default async function ProjectPage({
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tell us about your space
+          <InstagramIcon /> Tell us about your space
         </Link>
       </section>
     </article>

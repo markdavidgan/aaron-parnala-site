@@ -1,3 +1,4 @@
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
 import Link from "next/link";
 export function Footer() {
   return (
@@ -20,7 +21,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram / Project journal
+            <InstagramIcon /> Instagram / Project journal
           </a>
         </div>
         <nav aria-label="Footer navigation">
@@ -31,7 +32,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contact on Instagram
+            <InstagramIcon /> Contact on Instagram
           </Link>
         </nav>
       </div>

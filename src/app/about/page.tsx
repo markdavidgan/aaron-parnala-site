@@ -1,3 +1,4 @@
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
 import Link from "next/link";
 import { PROJECTS } from "@/data/projects";
 import { PortfolioImage } from "@/components/PortfolioImage";
@@ -83,7 +84,10 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Contact on Instagram <span aria-hidden="true">↗</span>
+          Contact on Instagram{" "}
+          <span aria-hidden="true">
+            <InstagramIcon />
+          </span>
         </Link>
       </section>
     </>

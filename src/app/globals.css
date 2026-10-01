@@ -1007,7 +1007,7 @@ a:is(:hover, :focus-visible) .project-caption :is(h2, h3) {
 .round-link:is(:hover, :focus-visible) span {
   background: var(--ink);
   color: var(--background);
-  transform: rotate(45deg);
+  transform: scale(1.06);
 }
 .filters button {
   transition:
@@ -1069,4 +1069,27 @@ a:is(:hover, :focus-visible) .project-caption :is(h2, h3) {
   .project-caption :is(h2, h3) {
     transform: none !important;
   }
+}
+
+.instagram-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  vertical-align: -3px;
+}
+.navigation a:has(.instagram-icon) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-top .instagram-icon {
+  margin-right: 5px;
+}
+.round-link .instagram-icon {
+  width: 23px;
+  height: 23px;
+}
+.text-link .instagram-icon {
+  transform: none;
 }

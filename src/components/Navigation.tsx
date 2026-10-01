@@ -1,4 +1,5 @@
 "use client";
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -44,6 +45,7 @@ export function Navigation() {
             aria-current={path === href ? "page" : undefined}
             onClick={() => setOpen(false)}
           >
+            {href.startsWith("https:") && <InstagramIcon />}
             {label}
           </Link>
         ))}

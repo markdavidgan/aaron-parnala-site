@@ -61,3 +61,7 @@ Verified at https://aaronparnala.markdavidgan.com on 2026-10-01: all ten page ro
 Production deployment: https://aaron-parnala-site-8g24argss-markdavidgan-code.vercel.app
 
 Opening choreography, image reveals, limited scroll depth and interaction states shipped. See [motion design and verification](motion-design.md). No runtime dependency added. Contact and image-disclosure rules retained.
+
+### Instagram icons — 2026-10-01
+
+Added decorative, current-color Instagram icons to every Instagram link, including navigation, footer and contact CTAs. Circular contact icons remain upright on hover. Visible labels, destinations and external-link protections remain intact. Production: https://aaron-parnala-site-3yns9r7zj-markdavidgan-code.vercel.app. Lint, TypeScript and build passed; live homepage header/footer/contact alignment reviewed in Safari, and all Instagram anchors on homepage, practice, contact, collection and a case study verified to contain decorative icons.
