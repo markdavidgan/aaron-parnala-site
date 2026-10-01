@@ -1,23 +1,19 @@
-# Design & Positioning Brief
+# Design and positioning brief — Threshold
 
-**Subject:** Aaron Parnala Projects  
-**Target Prototype:** https://aaronparnala.markdavidgan.com  
-**Controlling Strategic File:** `markdavidgan/ventures/explorations/2026-10-01-aaron-parnala-positioning-and-design-brief.md`
+Updated 2026-10-01. Mark authorized the warm immersive redesign and its prototype deployment. Strategy and acceptance contract: `ventures/explorations/2026-10-01-aaron-parnala-threshold-redesign-plan.md`.
 
----
+Aaron Parnala Projects remains a prospective-client prototype, not an approved production website. The practice's design-and-fit-out positioning remains grounded in the project-feed audit. A sampled personal-feed review supports warm materiality and mid-century affinities; this is an interpretation, not Aaron's stated specialization.
 
-## 1. The Core Client Problem
-On Instagram (`@aaron_parnala_projects`), multi-month commissions and turnkey clinic/residential fit-outs are scattered chronologically across 55+ posts. High-value prospective clients (clinic founders, commercial operators, luxury condo owners) cannot easily evaluate:
-- The full scope of completed commissions;
-- Aaron's rigorous turnkey on-site execution capabilities;
-- Working methodology and timeline expectations;
-- How to submit a qualified inquiry.
+## Art direction
 
-## 2. Positioning Statement
-> **Aaron Parnala designs and builds interiors with quiet precision—where every curve, light source, and material joint is resolved long before construction, and brought to life through hands-on on-site execution.**
+Warm ivory `#F1EBDD`, oat `#DDD2BF`, espresso `#2D261F`, restrained tobacco/olive accents. Oversized architectural Geist typography, occasional Newsreader accents, asymmetric image sequences. An inset photographic threshold expands on desktop scroll; mobile and reduced-motion use a complete static inset composition. No forced entry, scroll hijacking, autoplay audio or invented three-dimensional walkthrough.
 
-## 3. Visual Language
-- **Atmosphere:** Architectural, warm minimalism, restrained luxury, deep shadows, soft amber illumination.
-- **Palette:** Obsidian/charcoal backdrop (`#121314`), warm parchment text (`#F4F2EE`), muted stone (`#E7E4DE`), warm bronze and soft sage accents.
-- **Typography:** Refined editorial serifs paired with crisp geometric sans-serif body copy and tabular metadata.
-- **Motion:** Subtle fade reveals and smooth hover transitions that highlight interior photography without distraction.
+## Routes and content
+
+Home: Spaces, felt → residential threshold → practice introduction → asymmetric home/clinic projects → closer-scale imagery → espresso hospitality chapter → sourcing and site work → inquiry invitation.
+
+Portfolio: category filters and an asymmetric collection. All six case studies: image-first introduction, concise context, credited gallery and next-project navigation. About: listening, material decisions and hands-on process. Contact: labeled qualification fields and an explicitly simulated confirmation; no persistence or network submission.
+
+## Integrity
+
+Aaron-sourced imagery is not automatically completed-project photography: some images appear to be architectural visualizations. Use portfolio imagery unless source format is independently verified. All AI-generated concepts retain persistent image labels and the global notice. Do not republish personal Instagram photographs as project work. No invented outcomes, material specifications or credentials. Keep noindex/nofollow metadata, HTTP headers, and crawler disallowance.

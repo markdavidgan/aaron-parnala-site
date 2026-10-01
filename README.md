@@ -1,10 +1,14 @@
 # Aaron Parnala Projects — Website Prototype
 
-A photography-led, editorial interior design website prototype created for **Aaron Parnala** (`@aaron_parnala_projects`).
+A warm, immersive Threshold interior design website prototype created for **Aaron Parnala** (`@aaron_parnala_projects`).
 
 > **Notice:** This repository is an unlisted, prospective-client prototype created by Mark David Gan. Aaron Parnala has not yet reviewed or approved this as his official production website. All prototype deployments are set to `noindex, nofollow`.
 
 ---
+
+## Current design
+
+Threshold pairs an oversized “Spaces, felt.” opening with a scroll-expanding residential image, light editorial chapters, and an espresso hospitality interlude. Portfolio, case studies, practice and inquiry share this direction. Mobile and reduced-motion presentations remain complete. See `docs/brief.md`.
 
 ## Strategic Purpose
 
@@ -21,7 +25,7 @@ To demonstrate how a dedicated website can elevate Aaron's design practice beyon
 ## Tech Stack
 
 - **Framework:** Next.js (App Router, TypeScript)
-- **Styling:** Tailwind CSS (Architectural dark/warm-earth aesthetic)
+- **Styling:** Tailwind CSS + custom CSS (warm ivory, architectural type, asymmetric portfolio imagery)
 - **Hosting:** Vercel (Preview-first deployment)
 - **Data:** Static typed project models (`src/data/projects.ts`)
 - **Backend / CMS:** None (Intentionally zero-infrastructure for prototype phase)

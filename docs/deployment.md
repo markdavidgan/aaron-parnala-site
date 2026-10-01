@@ -33,3 +33,15 @@
 - **Access Policy:** Direct public access enabled (bypassing Cloudflare Access Zero Trust proxy while keeping `noindex, nofollow` headers intact)
 - **SSL Certificate:** Auto-managed Let's Encrypt cert via Vercel Edge (`cert_ZhcBa0xSc4yJkB6VuEpY7nYk`)
 
+
+## Threshold redesign — 2026-10-01
+
+- Owner-authorized warm-light redesign implemented across home, portfolio, all six case studies, practice and contact.
+- Final verified preview: `https://aaron-parnala-site-bnz8uxh5x-markdavidgan-code.vercel.app`.
+- Production deployment: `https://aaron-parnala-site-2p6w8405p-markdavidgan-code.vercel.app`.
+- Live custom hostname: `https://aaronparnala.markdavidgan.com`; new “Spaces, felt.” content verified in Safari and over HTTP.
+- Existing DNS preserved. CLI preview promotion returned a team-resolution error; production deployment of the same checked source succeeded through the project's normal pipeline.
+- Passed: ESLint, TypeScript, production build, diff whitespace check; all ten content routes HTTP 200 with noindex metadata/header and one h1; robots disallow; all fifteen optimized image URLs return images.
+- Safari visual review: 390×844, 768×1024 and 1440×900 responsive viewports, plus normal desktop. Mobile menu, concept filter, case-study navigation and simulated form exercised; final preview confirmation focus verified.
+- Reduced-motion static composition verified in source; system-level motion emulation was not performed. No claim of a full accessibility audit, measured performance, or real-device testing.
+- Some Aaron-sourced portfolio imagery may be renders. Original files, image medium and individual photographer credits remain client-production handoff items. AI studies remain explicitly labeled and excluded from real project galleries.

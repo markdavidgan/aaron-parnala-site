@@ -8,20 +8,20 @@ import { Footer } from "@/components/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-  display: "swap"
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-  display: "swap"
+  display: "swap",
 });
 
 const newsreader = Newsreader({
   variable: "--font-newsreader",
   subsets: ["latin"],
   style: ["normal", "italic"],
-  display: "swap"
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
     nocache: true,
     googleBot: {
       index: false,
-      follow: false
-    }
+      follow: false,
+    },
   },
   openGraph: {
     title: "Aaron Parnala Projects — Interior Design & Turnkey Fit-Out",
@@ -43,12 +43,12 @@ export const metadata: Metadata = {
     url: "https://aaronparnala.markdavidgan.com",
     siteName: "Aaron Parnala Projects",
     locale: "en_PH",
-    type: "website"
-  }
+    type: "website",
+  },
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -57,10 +57,15 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${newsreader.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#121314] text-[#F4F2EE]">
+      <body className="min-h-full flex flex-col">
+        <a className="skip-link" href="#main-content">
+          Skip to content
+        </a>
         <PrototypeBanner />
         <Navigation />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
