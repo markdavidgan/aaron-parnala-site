@@ -24,3 +24,12 @@
    - Verify SSL/TLS issuance and edge propagation.
 5. **Live Verification:**
    - Confirm HTTPS, response headers (`noindex`), and zero console errors.
+
+## Verified Deployment Status (2026-10-01)
+
+- **Production URL:** `https://aaronparnala.markdavidgan.com` (HTTP 200, valid SSL)
+- **Vercel Alias:** `https://aaron-parnala-site.vercel.app`
+- **DNS Routing:** Cloudflare DNS CNAME pointing directly to `cname.vercel-dns.com` (`proxied: false`)
+- **Access Policy:** Direct public access enabled (bypassing Cloudflare Access Zero Trust proxy while keeping `noindex, nofollow` headers intact)
+- **SSL Certificate:** Auto-managed Let's Encrypt cert via Vercel Edge (`cert_ZhcBa0xSc4yJkB6VuEpY7nYk`)
+
