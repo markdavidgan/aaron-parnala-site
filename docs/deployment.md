@@ -2,7 +2,7 @@
 
 ## Target Hostname
 
-- **Prototype Hostname:** `https://aaronparnala.markdavidgan.com`
+- **Live Hostname:** `https://aaronparnala.markdavidgan.com`
 - **Indexing:** Enforce `X-Robots-Tag: noindex, nofollow` in HTTP response headers and `<meta name="robots" content="noindex, nofollow" />`.
 
 ## Deployment Pipeline
@@ -17,7 +17,7 @@
 3. **Verify Preview:**
    - Inspect layout on 390px (mobile), 768px (tablet), and 1440px (desktop).
    - Verify image loading, aspect ratios, responsive navigation, and concept image disclosures.
-   - Verify simulated form state.
+   - Verify Instagram contact links and absence of contact/signup forms.
 4. **Subdomain Assignment:**
    - Inspect existing `markdavidgan.com` Cloudflare/Vercel DNS zone.
    - Attach `aaronparnala.markdavidgan.com` to the Vercel project.
@@ -45,3 +45,13 @@
 - Safari visual review: 390×844, 768×1024 and 1440×900 responsive viewports, plus normal desktop. Mobile menu, concept filter, case-study navigation and simulated form exercised; final preview confirmation focus verified.
 - Reduced-motion static composition verified in source; system-level motion emulation was not performed. No claim of a full accessibility audit, measured performance, or real-device testing.
 - Some Aaron-sourced portfolio imagery may be renders. Original files, image medium and individual photographer credits remain client-production handoff items. AI studies remain explicitly labeled and excluded from real project galleries.
+
+## Live-site direction — 2026-10-01
+
+Mark explicitly designated the site live. Removed global prototype banner, footer/metadata prototype wording and all inquiry-form code. Contact CTAs open Aaron’s project Instagram; `/contact` is a direct-contact landing page for existing links. AI concept labels and the existing noindex policy remain. Earlier prototype verification entries are historical.
+
+### Live contact release verification
+
+Production deployment: https://aaron-parnala-site-owbqkjmyk-markdavidgan-code.vercel.app
+
+Verified at https://aaronparnala.markdavidgan.com on 2026-10-01: all ten page routes return HTTP 200, contain no prototype wording or form fields, link to project Instagram, and retain noindex metadata and headers. Robots disallowance and concept AI disclosures pass. Safari desktop homepage and direct-contact landing reviewed. Lint, TypeScript and production build pass.

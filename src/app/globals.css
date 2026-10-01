@@ -131,22 +131,6 @@ section {
 .skip-link:focus {
   top: 12px;
 }
-.prototype-note {
-  padding: 9px 5vw;
-  background: #e5dccb;
-  display: flex;
-  align-items: baseline;
-  gap: 22px;
-  font-size: 11px;
-  color: #554736;
-}
-.prototype-note span {
-  white-space: nowrap;
-  font-weight: 600;
-}
-.prototype-note p {
-  max-width: none;
-}
 .site-header {
   position: sticky;
   top: 0;
@@ -648,105 +632,6 @@ section {
 .contact-page {
   padding-top: 65px;
 }
-.contact-grid {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 10vw;
-  margin-top: 90px;
-}
-.contact-grid aside h2 {
-  font-size: 45px;
-}
-.contact-grid aside p {
-  font-size: 15px;
-  color: var(--muted);
-  margin-top: 25px;
-}
-.contact-grid aside .form-notice {
-  background: var(--oat);
-  padding: 20px;
-  margin-bottom: 25px;
-  font-size: 13px;
-}
-.contact-grid aside a {
-  display: flex;
-  width: fit-content;
-  margin-bottom: 15px;
-}
-.inquiry-form {
-  display: grid;
-  gap: 28px;
-}
-.form-pair {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-.inquiry-form label {
-  font-size: 13px;
-  display: grid;
-  gap: 12px;
-}
-.inquiry-form input,
-.inquiry-form select,
-.inquiry-form textarea {
-  width: 100%;
-  min-width: 0;
-  border: 0;
-  border-bottom: 1px solid #8e806c;
-  border-radius: 0;
-  background: transparent;
-  padding: 12px 0;
-  font-size: 16px;
-  color: var(--ink);
-}
-.inquiry-form input::placeholder,
-.inquiry-form textarea::placeholder {
-  color: var(--muted);
-}
-.inquiry-form textarea {
-  resize: vertical;
-}
-.form-end {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-.form-end p {
-  font-size: 12px;
-  color: var(--muted);
-}
-.solid-button {
-  border: 0;
-  background: var(--ink);
-  color: var(--background);
-  padding: 17px 26px;
-  font-size: 14px;
-}
-.solid-button:hover {
-  background: #514638;
-}
-.form-confirmation {
-  background: var(--oat);
-  padding: 40px;
-}
-.form-confirmation h2 {
-  font-size: 45px;
-  margin: 20px 0;
-}
-.form-confirmation p {
-  margin-bottom: 25px;
-}
-.form-confirmation .text-link {
-  margin-right: 25px;
-  background: none;
-  border-top: 0;
-  border-inline: 0;
-}
-.confirmation-mark {
-  font-size: 35px;
-}
 @media (min-width: 1600px) {
   .opening {
     max-width: 1600px;
@@ -774,28 +659,10 @@ section {
     text-align: left;
     margin-top: 8px;
   }
-  .contact-grid {
-    gap: 6vw;
-  }
-  .contact-grid aside h2 {
-    font-size: 36px;
-  }
-  .form-pair {
-    gap: 20px;
-  }
 }
 @media (max-width: 700px) {
   html {
     scroll-padding-top: 95px;
-  }
-  .prototype-note {
-    display: block;
-    font-size: 10px;
-    padding: 8px 6vw;
-  }
-  .prototype-note span {
-    display: block;
-    margin-bottom: 3px;
   }
   .site-header {
     padding: 18px 6vw;
@@ -1036,25 +903,6 @@ section {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 45px;
-    margin-top: 45px;
-  }
-  .form-pair {
-    grid-template-columns: 1fr;
-    gap: 28px;
-  }
-  .form-end {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .solid-button {
-    width: 100%;
-  }
-  .form-confirmation {
-    padding: 25px;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -1069,4 +917,17 @@ section {
   .threshold {
     padding-inline: 6vw !important;
   }
+}
+
+.instagram-contact {
+  max-width: 620px;
+  margin-top: 80px;
+}
+.instagram-contact > p {
+  margin-top: 25px;
+  color: var(--muted);
+}
+.instagram-contact .instagram-handle {
+  font-size: 14px;
+  margin-top: 18px;
 }

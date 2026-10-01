@@ -1,25 +1,8 @@
-# Prototype Review & Launch Checklist
+# Live site release checklist
 
-Before sharing `https://aaronparnala.markdavidgan.com` with Aaron Parnala:
-
-- [ ] **Real vs AI Imagery Integrity:**
-  - [ ] Every AI concept image carries the visible `Concept image` label.
-  - [ ] Persistent prototype disclaimer banner renders at top of screen.
-  - [ ] Real projects feature only verified imagery from Aaron's portfolio.
-- [ ] **No Unverified Claims:**
-  - [ ] No invented client testimonials.
-  - [ ] No unverified studio size, licenses, awards, or square-meter figures.
-  - [ ] Unverified dates/budgets omitted.
-- [ ] **Responsive Visual Quality:**
-  - [ ] Mobile navigation drawer operates cleanly at 390px.
-  - [ ] Hero photography crops well without head-cutting or awkward framing.
-  - [ ] Tablet (768px) and desktop (1440px) maintain architectural whitespace.
-- [ ] **Lead Flow Safety:**
-  - [ ] Contact form is explicitly labeled as a simulated prototype.
-  - [ ] Submitting form produces a graceful demo response without sending unexpected emails.
-  - [ ] Aaron's real email (`aaronparnala@gmail.com`) and Instagram link (`@aaron_parnala_projects`) are clearly accessible as official channels.
-- [ ] **SEO & Indexing Protection:**
-  - [ ] `robots.txt` / metadata configured with `noindex, nofollow`.
-- [ ] **Performance & Build:**
-  - [ ] `pnpm build` succeeds with zero TypeScript or ESLint errors.
-  - [ ] Images optimized via Next.js Image component.
+- [x] No prototype markings in rendered content or metadata.
+- [x] No contact/signup forms; all contact CTAs open Aaron’s project Instagram.
+- [x] Existing noindex metadata, headers and robots policy intact.
+- [x] Concept images explicitly disclose AI generation; real project galleries contain no AI concepts.
+- [x] Desktop homepage and contact layout reviewed; existing responsive layout retained.
+- [x] Lint, TypeScript, build and live HTTP verification pass.

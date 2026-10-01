@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Newsreader } from "next/font/google";
 import "./globals.css";
-import { PrototypeBanner } from "@/components/PrototypeBanner";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 
@@ -39,7 +38,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Aaron Parnala Projects — Interior Design & Turnkey Fit-Out",
-    description: "Speculative website prototype for Aaron Parnala Projects.",
+    description:
+      "Interior design and turnkey fit-out by Aaron Parnala Projects.",
     url: "https://aaronparnala.markdavidgan.com",
     siteName: "Aaron Parnala Projects",
     locale: "en_PH",
@@ -61,7 +61,6 @@ export default function RootLayout({
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>
-        <PrototypeBanner />
         <Navigation />
         <main id="main-content" className="flex-1">
           {children}

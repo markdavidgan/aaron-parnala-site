@@ -61,12 +61,12 @@ export default async function ProjectPage({
         <div>
           <p>
             {concept
-              ? "An exploratory composition of light, materials, and spatial proportions, created for this website prototype."
+              ? "An exploratory composition of light, materials, and spatial proportions, exploring possible interior layouts."
               : p.summary}
           </p>
           <p>
             {concept
-              ? "This AI-generated layout study is a prototype visualization. It does not represent a completed Aaron Parnala commission."
+              ? "This AI-generated layout study explores a possible interior. It does not represent a completed Aaron Parnala commission."
               : p.typology === "fit-out"
                 ? "Measurements, sourcing, lighting tests, and decisions made directly on site."
                 : "Explore the portfolio imagery below for a closer look at the space and its details."}
@@ -92,7 +92,12 @@ export default async function ProjectPage({
           <h2>{next.title}</h2>
           <span aria-hidden="true">↗</span>
         </Link>
-        <Link className="text-link" href="/contact">
+        <Link
+          className="text-link"
+          href="https://www.instagram.com/aaron_parnala_projects/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Tell us about your space
         </Link>
       </section>

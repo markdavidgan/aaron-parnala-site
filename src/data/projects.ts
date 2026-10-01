@@ -357,7 +357,7 @@ export const PROJECTS: Project[] = [
     resolution:
       "Full-height vertical fluted oak screening articulates circulation, while natural travertine, low-slung linen seating, and double-cove lighting establish a quiet residential sanctuary.",
     quotes: [
-      "Prototype visual exploration — illustrates layout and atmospheric potential for prospective commissions."
+      "Concept visual exploration — illustrates layout and atmospheric potential for prospective commissions."
     ],
     materials: [
       "Fluted natural oak architectural screening",

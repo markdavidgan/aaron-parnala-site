@@ -1,8 +1,8 @@
-# Aaron Parnala Projects — Website Prototype
+# Aaron Parnala Projects — Website
 
-A warm, immersive Threshold interior design website prototype created for **Aaron Parnala** (`@aaron_parnala_projects`).
+A warm, immersive Threshold interior design website created for **Aaron Parnala** (`@aaron_parnala_projects`).
 
-> **Notice:** This repository is an unlisted, prospective-client prototype created by Mark David Gan. Aaron Parnala has not yet reviewed or approved this as his official production website. All prototype deployments are set to `noindex, nofollow`.
+> **Current status:** Mark designated this a live site on 2026-10-01. Contact is through Instagram only; no contact/signup forms or prototype markings. Existing `noindex, nofollow` policy remains until indexing is explicitly changed.
 
 ---
 
@@ -16,9 +16,9 @@ To demonstrate how a dedicated website can elevate Aaron's design practice beyon
 - Organizing projects into coherent architectural typologies (Commercial/Clinics, Urban Condominiums, Hospitality);
 - Highlighting his hands-on philosophy bridging spatial design with turnkey on-site execution;
 - Explaining his working process (Walkthrough → Spatial Modeling → Material Calibration → On-Site Execution);
-- Offering an interactive project qualification and inquiry intake for prospective clients.
+- Directing prospective clients to Aaron’s Instagram for inquiries.
 
-## Temporary Target
+## Live Site
 
 - `https://aaronparnala.markdavidgan.com`
 
@@ -28,7 +28,7 @@ To demonstrate how a dedicated website can elevate Aaron's design practice beyon
 - **Styling:** Tailwind CSS + custom CSS (warm ivory, architectural type, asymmetric portfolio imagery)
 - **Hosting:** Vercel (Preview-first deployment)
 - **Data:** Static typed project models (`src/data/projects.ts`)
-- **Backend / CMS:** None (Intentionally zero-infrastructure for prototype phase)
+- **Backend / CMS:** None (Intentionally zero-infrastructure)
 
 ## Documentation
 

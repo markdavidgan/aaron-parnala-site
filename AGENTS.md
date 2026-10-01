@@ -1,12 +1,12 @@
 # AGENTS.md
 
-`aaron-parnala-site` is the **independent website prototype repository** for interior designer Aaron Parnala (`@aaron_parnala_projects`).
+`aaron-parnala-site` is the **independent live website repository** for interior designer Aaron Parnala (`@aaron_parnala_projects`).
 
 ## Operating context
 
-- **Status:** Speculative / prospective-client prototype.
-- **Client status:** Aaron Parnala has **not yet approved** this as his production website.
-- **Temporary hosting target:** `https://aaronparnala.markdavidgan.com`
+- **Status:** Live website, designated by Mark on 2026-10-01.
+- **Authorization:** Mark explicitly authorized live-site presentation; do not invent a separate client-approval record.
+- **Hosting target:** `https://aaronparnala.markdavidgan.com`
 - **Indexing status:** `noindex, nofollow` on all environments.
 - **Controlling strategy:** Owned by `markdavidgan/ventures` (current redesign: `explorations/2026-10-01-aaron-parnala-threshold-redesign-plan.md`; original discovery: `2026-10-01-aaron-parnala-instagram-audit.md`).
 
@@ -16,10 +16,9 @@
 2. **Asset Provenance:**
    - Aaron-sourced portfolio imagery uses `source: "aaron"`; this identifies source, not whether an asset is photography or a render. Do not claim completed-project photography without verification.
    - Any AI-generated filler imagery used for visual layout demonstration (`source: "concept-ai"`) must carry an explicit `Concept image` label.
-   - The global prototype banner must disclose:
-     > *Prototype preview — selected concept imagery is AI-generated for layout visualization and does not represent completed Aaron Parnala projects.*
+   - No global prototype banner. Retain per-image AI concept disclosure and distinguish concept studies from completed commissions.
    - Never insert AI concept images into a real project's case study gallery.
-3. **Lead capture:** The project inquiry contact form is simulated for the prototype phase. Do not collect or forward real customer inquiries without Aaron's explicit setup.
+3. **Lead capture:** No contact or signup forms. All contact calls to action open `https://www.instagram.com/aaron_parnala_projects/`.
 4. **Architecture:** Lightweight Next.js App Router + TypeScript + Tailwind CSS. No CMS, database, custom backend, or unnecessary external dependencies.
 
 <!-- BEGIN:nextjs-agent-rules -->

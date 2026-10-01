@@ -143,8 +143,13 @@ export default function Home() {
           <br />
           your space.
         </h2>
-        <Link href="/contact" className="round-link">
-          Start a project <span aria-hidden="true">↗</span>
+        <Link
+          href="https://www.instagram.com/aaron_parnala_projects/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="round-link"
+        >
+          Contact on Instagram <span aria-hidden="true">↗</span>
         </Link>
       </section>
     </>

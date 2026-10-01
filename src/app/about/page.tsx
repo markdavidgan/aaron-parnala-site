@@ -77,8 +77,13 @@ export default function About() {
           <br />
           space need?
         </h2>
-        <Link className="round-link" href="/contact">
-          Start a project <span aria-hidden="true">↗</span>
+        <Link
+          className="round-link"
+          href="https://www.instagram.com/aaron_parnala_projects/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact on Instagram <span aria-hidden="true">↗</span>
         </Link>
       </section>
     </>

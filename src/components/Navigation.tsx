@@ -31,11 +31,16 @@ export function Navigation() {
         {[
           ["/projects", "Selected spaces"],
           ["/about", "The practice"],
-          ["/contact", "Start a project"],
+          [
+            "https://www.instagram.com/aaron_parnala_projects/",
+            "Contact on Instagram",
+          ],
         ].map(([href, label]) => (
           <Link
             key={href}
             href={href}
+            target={href.startsWith("https:") ? "_blank" : undefined}
+            rel={href.startsWith("https:") ? "noopener noreferrer" : undefined}
             aria-current={path === href ? "page" : undefined}
             onClick={() => setOpen(false)}
           >

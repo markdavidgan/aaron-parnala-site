@@ -1,8 +1,8 @@
 # Design and positioning brief — Threshold
 
-Updated 2026-10-01. Mark authorized the warm immersive redesign and its prototype deployment. Strategy and acceptance contract: `ventures/explorations/2026-10-01-aaron-parnala-threshold-redesign-plan.md`.
+Updated 2026-10-01. Mark authorized the warm immersive redesign, then designated it a live site with Instagram-only contact. Strategy and acceptance contract: `ventures/explorations/2026-10-01-aaron-parnala-threshold-redesign-plan.md`.
 
-Aaron Parnala Projects remains a prospective-client prototype, not an approved production website. The practice's design-and-fit-out positioning remains grounded in the project-feed audit. A sampled personal-feed review supports warm materiality and mid-century affinities; this is an interpretation, not Aaron's stated specialization.
+Aaron Parnala Projects is presented as a live site by Mark’s explicit instruction. The practice's design-and-fit-out positioning remains grounded in the project-feed audit. A sampled personal-feed review supports warm materiality and mid-century affinities; this is an interpretation, not Aaron's stated specialization.
 
 ## Art direction
 
@@ -12,8 +12,8 @@ Warm ivory `#F1EBDD`, oat `#DDD2BF`, espresso `#2D261F`, restrained tobacco/oliv
 
 Home: Spaces, felt → residential threshold → practice introduction → asymmetric home/clinic projects → closer-scale imagery → espresso hospitality chapter → sourcing and site work → inquiry invitation.
 
-Portfolio: category filters and an asymmetric collection. All six case studies: image-first introduction, concise context, credited gallery and next-project navigation. About: listening, material decisions and hands-on process. Contact: labeled qualification fields and an explicitly simulated confirmation; no persistence or network submission.
+Portfolio: category filters and an asymmetric collection. All six case studies: image-first introduction, concise context, credited gallery and next-project navigation. About: listening, material decisions and hands-on process. Contact: a direct Instagram invitation. All contact CTAs open Aaron’s project Instagram; there are no contact or signup forms.
 
 ## Integrity
 
-Aaron-sourced imagery is not automatically completed-project photography: some images appear to be architectural visualizations. Use portfolio imagery unless source format is independently verified. All AI-generated concepts retain persistent image labels and the global notice. Do not republish personal Instagram photographs as project work. No invented outcomes, material specifications or credentials. Keep noindex/nofollow metadata, HTTP headers, and crawler disallowance.
+Aaron-sourced imagery is not automatically completed-project photography: some images appear to be architectural visualizations. Use portfolio imagery unless source format is independently verified. All AI-generated concepts retain persistent image labels with no global prototype notice. Do not republish personal Instagram photographs as project work. No invented outcomes, material specifications or credentials. Keep noindex/nofollow metadata, HTTP headers, and crawler disallowance.
